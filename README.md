@@ -22,12 +22,12 @@ The Wiki project is a simple web application that allows users to create, edit, 
 
 ## How to Run the Project
 
-1. Download project.
-2. Navigate to project directory
-3. Now in terminal(if u use visual studio ctrl + ~ to open terminal):
-   python manage.py makemigrations
-   python manage.py migrate
-   python manage.py runserver
+1. **Download project.**
+2. **Navigate to project directory**
+3. **Now in terminal(if u use visual studio ctrl + ~ to open terminal):**
+  **-python manage.py makemigrations**
+  **-python manage.py migrate**
+  **-python manage.py runserver*
 
 ### Requirements
 
@@ -59,12 +59,12 @@ Projekt Wiki jest prostą aplikacją internetową, która pozwala użytkownikom 
 
 ## Jak uruchomić projekt
 
-1. Pobierz projekt
-2. Przejdz do scieżki projektu
-3. Teraz w terminalu(jeśi używasz visual studio to ctrl + ~ zeby go odpalić):
-   python manage.py makemigrations
-   python manage.py migrate
-   python manage.py runserver
+1. **Pobierz projekt**
+2. **Przejdz do scieżki projektu**
+3. **Teraz w terminalu(jeśi używasz visual studio to ctrl + ~ zeby go odpalić):**
+   **-python manage.py makemigrations**
+   **-python manage.py migrate**
+   **-python manage.py runserver**
 
 ### Wymagania
 
