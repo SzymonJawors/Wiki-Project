@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encyclopedia</title>
+</head>
+<body>
+    <h2>Create New Page</h2>
+
+    <form method="post">
+        {% csrf_token %}
+        <div>
+            Title:
+            <input type="text" name="title" placeholder="Enter title" required>
+        </div>
+        <div>
+            Text:
+            <textarea name="text" id="text" rows="10" cols="40" required></textarea>
+        </div>
+        <input type="submit" value="Save Page">
+    </form>
+    <br>
+
+    {% if messages %}
+        <div>
+            {% for message in messages %}
+                <div>{{ message }}</div>
+            {% endfor %}
+        </div>
+    {% endif %}
+</body>
+</html>
